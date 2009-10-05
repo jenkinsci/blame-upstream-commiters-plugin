@@ -20,7 +20,8 @@
       <email>g.takeuchi@gmail.com</email>
     </developer>
   </developer
-  
+  <url>http://wiki.hudson-ci.org/display/HUDSON/Blame+Upstream+Commiters+Plugin</url>
+ 
 
   <!-- get every artifact through maven.glassfish.org, which proxies all the artifacts that we need -->
   <repositories>
