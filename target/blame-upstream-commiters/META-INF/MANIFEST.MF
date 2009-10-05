@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Built-By: gtakeuchi
+Created-By: Apache Maven
+Build-Jdk: 1.6.0_16
+Extension-Name: blame-upstream-commiters
+Implementation-Title: blame-upstream-commiters
+Implementation-Version: 1.0-SNAPSHOT
+Short-Name: blame-upstream-commiters
+Long-Name: Blame Upstream Commiters
+Url: https://hudson.dev.java.net/plugin/blame-upstream-commiters
+Plugin-Version: 1.0-SNAPSHOT (private-10/01/2009 03:49-gtakeuchi)
+Hudson-Version: 1.323
+

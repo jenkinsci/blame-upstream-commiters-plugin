@@ -1,0 +1,107 @@
+Manifest-Version: 1.0
+Short-Name: blame-upstream-commiters
+Long-Name: Blame Upstream Commiters
+Url: https://hudson.dev.java.net/plugin/blame-upstream-commiters
+Plugin-Version: 1.0-SNAPSHOT (private-10/01/2009 03:49-gtakeuchi)
+Hudson-Version: 1.323
+Plugin-Dependencies: maven-plugin:1.323
+Libraries: C:\desenvolvimento\hudson\homebrew-plugins\blame-upstream-c
+ ommiters\target\classes,C:\Documents and Settings\gtakeuchi\.m2\repos
+ itory\org\jvnet\hudson\main\hudson-war\1.323\hudson-war-1.323.war,C:\
+ Documents and Settings\gtakeuchi\.m2\repository\junit\junit\4.3.1\jun
+ it-4.3.1.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\org\j
+ vnet\hudson\main\hudson-test-harness\1.323\hudson-test-harness-1.323.
+ jar,C:\Documents and Settings\gtakeuchi\.m2\repository\org\jvnet\huds
+ on\main\hudson-war\1.323\hudson-war-1.323-war-for-test.jar,C:\Documen
+ ts and Settings\gtakeuchi\.m2\repository\org\jvnet\hudson\main\maven-
+ plugin\1.323\maven-plugin-1.323.jar,C:\Documents and Settings\gtakeuc
+ hi\.m2\repository\org\jvnet\hudson\main\maven-agent\1.323\maven-agent
+ -1.323.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\org\jvn
+ et\hudson\main\maven-interceptor\1.323\maven-interceptor-1.323.jar,C:
+ \Documents and Settings\gtakeuchi\.m2\repository\org\apache\maven\mav
+ en-core\2.0.9\maven-core-2.0.9.jar,C:\Documents and Settings\gtakeuch
+ i\.m2\repository\org\apache\maven\maven-settings\2.0.9\maven-settings
+ -2.0.9.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\org\apa
+ che\maven\maven-model\2.0.9\maven-model-2.0.9.jar,C:\Documents and Se
+ ttings\gtakeuchi\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.
+ 1\plexus-utils-1.5.1.jar,C:\Documents and Settings\gtakeuchi\.m2\repo
+ sitory\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stabl
+ e-1\plexus-container-default-1.0-alpha-9-stable-1.jar,C:\Documents an
+ d Settings\gtakeuchi\.m2\repository\classworlds\classworlds\1.1\class
+ worlds-1.1.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\org
+ \apache\maven\wagon\wagon-file\1.0-beta-2\wagon-file-1.0-beta-2.jar,C
+ :\Documents and Settings\gtakeuchi\.m2\repository\org\apache\maven\wa
+ gon\wagon-provider-api\1.0-beta-2\wagon-provider-api-1.0-beta-2.jar,C
+ :\Documents and Settings\gtakeuchi\.m2\repository\org\apache\maven\ma
+ ven-plugin-parameter-documenter\2.0.9\maven-plugin-parameter-document
+ er-2.0.9.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\slide
+ \slide-webdavlib\2.1\slide-webdavlib-2.1.jar,C:\Documents and Setting
+ s\gtakeuchi\.m2\repository\commons-httpclient\commons-httpclient\3.1\
+ commons-httpclient-3.1.jar,C:\Documents and Settings\gtakeuchi\.m2\re
+ pository\de\zeigermann\xml\xml-im-exporter\1.1\xml-im-exporter-1.1.ja
+ r,C:\Documents and Settings\gtakeuchi\.m2\repository\org\apache\maven
+ \wagon\wagon-http-lightweight\1.0-beta-2\wagon-http-lightweight-1.0-b
+ eta-2.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\org\apac
+ he\maven\wagon\wagon-http-shared\1.0-beta-2\wagon-http-shared-1.0-bet
+ a-2.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\org\apache
+ \maven\reporting\maven-reporting-api\2.0.9\maven-reporting-api-2.0.9.
+ jar,C:\Documents and Settings\gtakeuchi\.m2\repository\org\apache\mav
+ en\doxia\doxia-sink-api\1.0-alpha-10\doxia-sink-api-1.0-alpha-10.jar,
+ C:\Documents and Settings\gtakeuchi\.m2\repository\org\apache\maven\m
+ aven-profile\2.0.9\maven-profile-2.0.9.jar,C:\Documents and Settings\
+ gtakeuchi\.m2\repository\org\apache\maven\maven-artifact\2.0.9\maven-
+ artifact-2.0.9.jar,C:\Documents and Settings\gtakeuchi\.m2\repository
+ \org\apache\maven\maven-repository-metadata\2.0.9\maven-repository-me
+ tadata-2.0.9.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\o
+ rg\apache\maven\maven-error-diagnostics\2.0.9\maven-error-diagnostics
+ -2.0.9.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\org\apa
+ che\maven\maven-project\2.0.9\maven-project-2.0.9.jar,C:\Documents an
+ d Settings\gtakeuchi\.m2\repository\org\apache\maven\maven-artifact-m
+ anager\2.0.9\maven-artifact-manager-2.0.9.jar,C:\Documents and Settin
+ gs\gtakeuchi\.m2\repository\org\apache\maven\maven-plugin-registry\2.
+ 0.9\maven-plugin-registry-2.0.9.jar,C:\Documents and Settings\gtakeuc
+ hi\.m2\repository\org\apache\maven\maven-plugin-api\2.0.9\maven-plugi
+ n-api-2.0.9.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\or
+ g\apache\maven\wagon\wagon-ssh-external\1.0-beta-2\wagon-ssh-external
+ -1.0-beta-2.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\or
+ g\apache\maven\wagon\wagon-ssh-common\1.0-beta-2\wagon-ssh-common-1.0
+ -beta-2.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\org\co
+ dehaus\plexus\plexus-interactivity-api\1.0-alpha-4\plexus-interactivi
+ ty-api-1.0-alpha-4.jar,C:\Documents and Settings\gtakeuchi\.m2\reposi
+ tory\org\apache\maven\maven-plugin-descriptor\2.0.9\maven-plugin-desc
+ riptor-2.0.9.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\o
+ rg\apache\maven\maven-monitor\2.0.9\maven-monitor-2.0.9.jar,C:\Docume
+ nts and Settings\gtakeuchi\.m2\repository\org\apache\maven\wagon\wago
+ n-ssh\1.0-beta-2\wagon-ssh-1.0-beta-2.jar,C:\Documents and Settings\g
+ takeuchi\.m2\repository\com\jcraft\jsch\0.1.27\jsch-0.1.27.jar,C:\Doc
+ uments and Settings\gtakeuchi\.m2\repository\org\jvnet\hudson\maven2.
+ 1-interceptor\1.2\maven2.1-interceptor-1.2.jar,C:\Documents and Setti
+ ngs\gtakeuchi\.m2\repository\org\apache\maven\maven-embedder\2.0.4\ma
+ ven-embedder-2.0.4.jar,C:\Documents and Settings\gtakeuchi\.m2\reposi
+ tory\org\jvnet\hudson\wagon-webdav\1.0-beta-2-hudson-1\wagon-webdav-1
+ .0-beta-2-hudson-1.jar,C:\Documents and Settings\gtakeuchi\.m2\reposi
+ tory\org\mortbay\jetty\jetty\6.1.11\jetty-6.1.11.jar,C:\Documents and
+  Settings\gtakeuchi\.m2\repository\org\mortbay\jetty\jetty-util\6.1.1
+ 1\jetty-util-6.1.11.jar,C:\Documents and Settings\gtakeuchi\.m2\repos
+ itory\org\mortbay\jetty\servlet-api-2.5\6.1.11\servlet-api-2.5-6.1.11
+ .jar,C:\Documents and Settings\gtakeuchi\.m2\repository\org\jvnet\moc
+ k-javamail\mock-javamail\1.7\mock-javamail-1.7.jar,C:\Documents and S
+ ettings\gtakeuchi\.m2\repository\org\jvnet\hudson\htmlunit\2.2-hudson
+ -10\htmlunit-2.2-hudson-10.jar,C:\Documents and Settings\gtakeuchi\.m
+ 2\repository\xalan\xalan\2.7.0\xalan-2.7.0.jar,C:\Documents and Setti
+ ngs\gtakeuchi\.m2\repository\org\jvnet\hudson\htmlunit-core-js\2.2-hu
+ dson-2\htmlunit-core-js-2.2-hudson-2.jar,C:\Documents and Settings\gt
+ akeuchi\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.8\nekoht
+ ml-1.9.8.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\xerce
+ s\xercesImpl\2.8.1\xercesImpl-2.8.1.jar,C:\Documents and Settings\gta
+ keuchi\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.5\csspa
+ rser-0.9.5.jar,C:\Documents and Settings\gtakeuchi\.m2\repository\org
+ \w3c\css\sac\1.3\sac-1.3.jar,C:\Documents and Settings\gtakeuchi\.m2\
+ repository\org\jvnet\hudson\embedded-rhino-debugger\1.1\embedded-rhin
+ o-debugger-1.1.jar,C:\Documents and Settings\gtakeuchi\.m2\repository
+ \org\jvnet\hudson\netx\0.5-hudson-2\netx-0.5-hudson-2.jar,C:\Document
+ s and Settings\gtakeuchi\.m2\repository\org\easymock\easymock\2.4\eas
+ ymock-2.4.jar
+Resource-Path: C:\desenvolvimento\hudson\homebrew-plugins\blame-upstre
+ am-commiters\src\main\webapp
+
