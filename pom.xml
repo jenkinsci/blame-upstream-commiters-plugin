@@ -9,7 +9,7 @@
 
   <groupId>hudson.plugins</groupId>
   <artifactId>blame-upstream-commiters</artifactId>
-  <name>Blame Upstream Commiters</name>
+  <name>Blame Upstream Committers</name>
   <version>1.1-SNAPSHOT</version>
   <packaging>hpi</packaging>
   
@@ -20,5 +20,5 @@
       <email>g.takeuchi@gmail.com</email>
     </developer>
   </developers>
-  <url>http://wiki.hudson-ci.org/display/HUDSON/Blame+Upstream+Commiters+Plugin</url>
+  <url>http://wiki.hudson-ci.org/display/HUDSON/Blame+Upstream+Committers+Plugin</url>
 </project>

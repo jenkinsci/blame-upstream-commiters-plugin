@@ -53,7 +53,7 @@ public class BlameUpstreamCommitersPublisher extends Notifier {
 			if (recipientUpstreamProjects.size() > 0) {
 				String recipentString="";
 				recipentString = "upstream-individuals:"+StringUtils.join(recipientUpstreamProjects, " upstream-individuals:");
-				listener.getLogger().println("Upstream projects changes detected. Mailing upstream commiters in the following projects:");
+				listener.getLogger().println("Upstream projects changes detected. Mailing upstream committers in the following projects:");
 				listener.getLogger().println(StringUtils.join(recipientUpstreamProjects,","));
 
 				return new MailSender(recipentString,false,sendToIndividuals) {
@@ -108,7 +108,7 @@ public class BlameUpstreamCommitersPublisher extends Notifier {
         }
 
         public String getDisplayName() {
-            return "Mail upstream commiters when the build fails";
+            return "Mail upstream committers when the build fails";
         }
 
         public boolean isApplicable(Class<? extends AbstractProject> jobType) {
