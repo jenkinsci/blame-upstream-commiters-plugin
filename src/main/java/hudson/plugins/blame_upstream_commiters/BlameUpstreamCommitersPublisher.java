@@ -4,7 +4,6 @@ import com.google.common.base.Function;
 import com.google.common.collect.Collections2;
 import hudson.Extension;
 import hudson.Launcher;
-import hudson.Util;
 import hudson.model.*;
 import hudson.tasks.ArtifactArchiver;
 import hudson.tasks.BuildStepDescriptor;
@@ -21,7 +20,6 @@ import java.util.logging.Logger;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.tools.ant.types.selectors.SelectorUtils;
-import org.apache.tools.ant.util.CollectionUtils;
 import org.kohsuke.stapler.DataBoundConstructor;
 
 @SuppressWarnings({ "unchecked" })
